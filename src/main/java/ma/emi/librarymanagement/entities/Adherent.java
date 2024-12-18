@@ -17,6 +17,7 @@ public class Adherent {
     private Long id;
     private String nom;
     private String prenom;
+    private String email;
     @OneToMany(mappedBy = "adherent")
     private List<Pret> prets=new ArrayList<>(3);
 
