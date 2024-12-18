@@ -11,4 +11,5 @@ public class AdherentDto {
     private Long id;
     private String nom;
     private String prenom;
+    private String email;
 }
